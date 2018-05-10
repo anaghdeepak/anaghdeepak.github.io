@@ -1,93 +1,503 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="flexboxcss.css">
-	<link rel="stylesheet" href="gridcss.css.css">
-	<title>MarketWorth Traders</title>
-</head>
-<body>
-	<div class="wrapper">
-		<!--navigation-->
-		<nav class="main-nav">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		<!--top container-->
-		<section class="top-container">
-			<header class="showcase">
-				<h1>Your Web Presence</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo natus quos velit doloremque at. Quasi!</p>
-				<a href="#" class="btn">Read More...</a>
-			</header>
-			<div class="top-box top-box-a">
-				<h4>Membership</h4>
-				<p class="price">$199/mo</p>
-				<a href="#" class="btn">Buy Now</a>
-			</div>
-			<div class="top-box top-box-b">
-				<h4>Pro Membership</h4>
-				<p class="price">$299/mo</p>
-				<a href="#" class="btn">Buy Now</a>
-			</div>
-		</section>
-		<!--Boxes section-->
-		<section class="boxes">
-			<div class="box">
-				<i class="fas fa-chart-pie fa-4x"></i>
-				<h3>Analytics</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, soluta!</p>	
-			</div>
-			<div class="box">
-				<i class="fas fa-globe fa-4x"></i>
-				<h3>Marketing</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, soluta!</p>	
-			</div>
-			<div class="box">
-				<i class="fas fa-cog fa-4x"></i>
-				<h3>Development</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, soluta!</p>	
-			</div>
-			<div class="box">
-				<i class="fas fa-users fa-4x"></i>
-				<h3>Support</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, soluta!</p>	
-			</div>
-		</section>
-		<!--info section-->
-		<section class="info">
-			<img src="img/marketing-board-strategy.jpg" alt="">
-			<div>
-				<h2>Your business on the web</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio officiis qui nobis ratione maxime rerum, doloribus debitis sunt dolorem sed. Quae voluptates laboriosam quas consequatur, voluptas deleniti explicabo eaque. Necessitatibus.</p>
-			</div>
-		</section>
-		<!--portfolio-->
-		<section class="portfolio">
-			<img src="https://source.unsplash.com/random/200x200" alt="">
-			<img src="https://source.unsplash.com/random/201x201" alt="">
-			<img src="https://source.unsplash.com/random/202x202" alt="">
-			<img src="https://source.unsplash.com/random/203x203" alt="">
-			<img src="https://source.unsplash.com/random/204x204" alt="">
-			<img src="https://source.unsplash.com/random/205x205" alt="">
-			<img src="https://source.unsplash.com/random/206x200" alt="">
-			<img src="https://source.unsplash.com/random/207x200" alt="">
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/flexboxgrid.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/thumbstyle.css">
+        <title>Bootstrap 4 Starter Pack</title>
+    </head>
 
-		</section>
-		<!-- footer -->
-		<footer>
-			<p>MarketWorth &copy; 2018</p>
-		</footer>
+    <body>
+       
+    <body id="home">
+    	
+        <nav class="navbar navbar-expand-lg bg-light  fixed-top">
+        <div class="container">
+            <!-- <a href="index.html" class="navbar-brand"><h4><i class="fab fa-affiliatetheme"></i> Abbp System </h4> -->
+            <!-- <h4>   International LLC</h4></a> -->
+            <div class="row end-xs end-sm end-lg end-md middle-xs middle-sm middle-md middle-lg">
+            
+            <a href="index.html" class="navbar-brand">
+                <div class="col-xs-12   col-sm-12  col-md-1  text-center">
+                    <i class="fab fa-affiliatetheme"></i>
+                </div>
+                <div class="col-xs-12  col-sm-12  col-md-3  text-center">
+                   <h4> Abbp Company  Name </h4>
+                </div>
+            </div>  
+            </a>  
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+                <span class="navbar-toggler-icon icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <ul class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item"><a href="#home" class="nav-link">Home</a></li> -->
+                    <!-- <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Action</a>
+                        </div>
+                      </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Services </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Clients </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                </ul>
 
-		
-	</div> <!--wrapper ends-->
-	
-</body>
+            </div>
+        </div>
+    </nav>
+    <!-- HOME SECTION -->
+    <header id="home-section">
+    		<div class="dark-overlay">
+    			<div class="home-inner">
+        				  <!-- <div class="row"> -->
+                            <div class="container">
+                                <!-- <div class="row  center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg"></div> -->
+                                <div class="row  center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="header-content">
+                                            <h1>Business</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui amet quod perferendis accusantium?</p>
+                                            <a href="#" class="btn btn-primary">&raquo; Read More</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                       
+                                    <div class="carousel-inner row w-400 mx-auto">
+                                   
+                                           <div class="carousel-item col-xs-10  col-sm-6  col-md-4 col-lg-3  active">  
+                                                                          
+                                                <div class="card">
+                                                <img src="img/card1.jpeg" class="img-fluid" alt="rice">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">About Us1</h4>
+                                                        <h5 class="card-subtitle">rice</h5>
+                                                        <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                           <div class="carousel-item col-xs-10  col-sm-6 col-md-4 col-lg-3 ">
+                                                <div class="card">
+                                                <img src="img/card1.jpeg"  class="img-fluid" alt="vegetables">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">About Us2</h4>
+                                                        <h5 class="card-subtitle">vegetables</h5>
+                                                        <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                          <div class="carousel-item col-xs-10  col-sm-6 col-md-4 col-lg-3  ">
+                                                <div class="card">
+                                                <img src="img/card1.jpeg"  class="img-fluid" alt="coffee">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">About Us3</h4>
+                                                        <h5 class="card-subtitle">coffee</h5>
+                                                        <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                                    </div>
+                                                </div>
+                                                                                                                                        
+                                        </div> 
+                                     
+                                        <div class="carousel-item col-xs-10  col-sm-6 col-md-4 col-lg-3 ">
+                                                                               
+                                           <div class="card">
+                                           <img src="img/card2.jpeg" class="img-fluid" alt="rice">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About Us4</h4>
+                                                <h5 class="card-subtitle">rice</h5>
+                                                <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                            </div>
+                                           </div>
+                                        </div>
+                                        <div class="carousel-item col-xs-10  col-sm-6 col-md-4 col-lg-3 ">  
+                                           <div class="card">
+                                           <img src="img/card2.jpeg"  class="img-fluid" alt="vegetables">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About Us5</h4>
+                                                <h5 class="card-subtitle">vegetables</h5>
+                                                <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                            </div>
+                                           </div>
+                                        </div>
+                                        <div class="carousel-item col-xs-10  col-sm-6 col-md-4 col-lg-3  ">   
+                                           <div class="card">
+                                           <img src="img/card2.jpeg"  class="img-fluid" alt="coffee">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About Us6</h4>
+                                                <h5 class="card-subtitle">coffee</h5>
+                                                <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                            </div>
+                                           </div>                                                                                            
+                                        </div>
+                                        <div class="carousel-item col-xs-10  col-sm-6 col-md-4 col-lg-3 ">
+                                            <div class="card">
+                                                <img src="img/card3.jpeg"  class="img-fluid" alt="coffee">
+                                                 <div class="card-body">
+                                                     <h4 class="card-title">About Us7</h4>
+                                                     <h5 class="card-subtitle">coffee</h5>
+                                                     <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                                 </div>
+                                            </div>        
+                                        </div>
+                                        <div class="carousel-item col-xs-10  col-sm-6 col-md-4 col-lg-3 ">   
+                                            <div class="card">
+                                                <img src="img/card3.jpeg"  class="img-fluid" alt="coffee">
+                                                 <div class="card-body">
+                                                    <h4 class="card-title">About Us8</h4>
+                                                    <h5 class="card-subtitle">coffee</h5>
+                                                    <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                                 </div>
+                                                </div>      
+                                        </div>
+                                        <div class="carousel-item col-xs-10  col-sm-6 col-md-4 col-lg-3 ">   
+                                           <div class="card">
+                                           <img src="img/card3.jpeg"  class="img-fluid" alt="coffee">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About Us9</h4>
+                                                <h5 class="card-subtitle">coffee</h5>
+                                                <p>We have a well-deserved reputation of excellence as an efficient and reliable  partner.</p>
+                                            </div>
+                                           </div>                                        
+                                        </div>
+                                    
+                                   
+                                   </div>
+                                   
+                                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                    
+                                  </div>
+                                </div>
+                        <div class="col-lg-4">
+
+                        <!-- </div> -->
+                       </div>    
+                   
+                </div>
+            </div>
+    </header>
+    <!-- features -->
+	<section id="features">
+            <div class="container">
+                <div class="row center-xs center-sm center-md center-lg">
+                    <div class="col-xs-12 col-sm-12 colmd-12 col-lg-12">
+                        <h2>Core Features</h2>
+                        <p>whats Included</p>
+                        <!-- icon row one -->
+                        <div class="row center-xs center-sm center-md center-lg">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <i class="fa fa-dashboard"></i><br>
+                                <h4>Fully Optimised</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, expedita?</p>
+                                
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <i class="fa fa-question-circle-o"></i><br>
+                                <h4>Free Support</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, expedita?</p>
+                                
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <i class="fa fa-rocket"></i><br>
+                                <h4>Free Upgrades </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, expedita?</p>
+                                
+                            </div>
+                        </div>
+                        <!-- icon row 2 -->
+                        <div class="row center-xs center-sm center-md center-lg">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <i class="fa fa-line-chart"></i><br>
+                                <h4>Up Time Gurantee</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, expedita?</p>
+                                
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <i class="fa fa-users"></i><br>
+                                <h4>Multi User </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, expedita?</p>
+                                
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <i class="fa fa-plug"></i><br>
+                                <h4>Plug & Play </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, expedita?</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    <!-- EXPLORE HEAD -->
+    <!-- <section id="explore-head-section"> 
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="p-5">
+                        <h1 class="display-4">Explore</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptatem optio magnam, veritatis harum commodi expedita debitis! Blanditiis, optio, placeat!</p>
+                        <a href="#" class="btn btn-outline-secondary">More  ....</a>	
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- EXPLORE SECTION -->
+    <section id="explore-section" class="bg-light text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/explore-section1.jpeg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h3>Explore & Connect</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque culpa perspiciatis nesciunt quaerat, deserunt fuga suscipit nemo pariatur saepe nisi quasi, alias doloremque qui. Praesentium, quam cumque eum similique minus!</p>
+                    <div class="d-flex flex-row">
+                            <div class="p-4 align-self-start">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste debitis aut, hic labore accusamus.
+                                
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="p-4 align-self-start">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste debitis aut, hic labore accusamus.
+                                
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- CREATE HEAD -->
+    <section id="create-head-section" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="p-5">
+                        <h1 class="display-4">Create</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptatem optio magnam, veritatis harum commodi expedita debitis! Blanditiis, optio, placeat!</p>
+                        <a href="#" class="btn btn-outline-light">More  ....</a>	
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CREATE SECTION -->
+    <section id="create-section" class="py-1">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+                
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3>Create your Passion</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque culpa perspiciatis nesciunt quaerat, deserunt fuga suscipit nemo pariatur saepe nisi quasi, alias doloremque qui. Praesentium, quam cumque eum similique minus!</p>
+                    <div class="d-flex flex-row">
+                            <div class="p-4 align-self-start">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p4 align-self-end py-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste debitis aut, hic labore accusamus.
+                                
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="p-4 align-self-start">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p4 align-self-end py-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste debitis aut, hic labore accusamus.
+                                
+                            </div>
+                        </div>
+                </div>
+                <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4">
+                    <div class="main-img">
+                        <img src="img/img1.jpg" id="current">
+                      </div>
+                    
+                      <div class="imgs">
+                        <img src="img/img1.jpg">
+                        <img src="img/img2.jpg">
+                        <img src="img/img3.jpg">
+                        <img src="img/img4.jpg">
+                        <img src="img/img5.jpg">
+                        <img src="img/img6.jpg">
+                        <img src="img/img7.jpg">
+                        <img src="img/img8.jpg">
+                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SHARE HEAD -->
+    <section id="share-head-section" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="p-5">
+                        <h1 class="display-4">Share</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptatem optio magnam, veritatis harum commodi expedita debitis! Blanditiis, optio, placeat!</p>
+                        <a href="#" class="btn btn-outline-light">More  ....</a>	
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SHARE SECTION -->
+    <section id="share-section" class="bg-light text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/share-section1.jpeg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h3>Share what you create</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque culpa perspiciatis nesciunt quaerat, deserunt fuga suscipit nemo pariatur saepe nisi quasi, alias doloremque qui. Praesentium, quam cumque eum similique minus!</p>
+                    <div class="d-flex flex-row">
+                            <div class="p-4 align-self-start">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste debitis aut, hic labore accusamus.
+                                
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="p-4 align-self-start">
+                                <i class="fa fa-check"></i>
+                            </div>
+                            <div class="p4 align-self-end">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iste debitis aut, hic labore accusamus.
+                                
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MAIN FOOTER -->
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                    <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="py-4">
+                                <h4>Contact us</h4>
+                                <ul>
+                                    <li><i class="fa fa-phone"></i>(555)555555</li>
+                                    <li><i class="fa fa-envelope"></i>support@abbp.net</li>
+                                    <li><i class="fa fa-map"></i>Industrial Area, Main st,LP, PC-123 </li>
+                                </ul>
+                                <p></p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                            </div>
+                    </div>
+                    <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="py-4">
+                                <h4>About us</h4>
+                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eius.</p>
+                            </div>
+                    </div>
+                    <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="py-4">
+                                <h4>News Letter</h4>
+                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eius.</p>
+                            </div>
+                    </div>
+                
+            </div>
+        </div>
+        <div id="sub-footer" class="container-fluid">
+            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+                    <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="py-4">
+                                <p>   copyright &copy; 2018  Company Name</p>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </footer>
+    <!-- CONTACT MODAL -->
+    <div class="modal fade text-dark" id="contactModal">
+        <div class="modal-dialog bg-light">
+            <div class="model-content">
+                <div class="modal-header">
+                    <h5 class="modaltitle" id="contactModalTitle">Contact Us</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control"></textarea> 
+                        </div>
+                    </form>
+                </div>	
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-block">Submit</button>
+                </div>	
+            </div>
+        </div>
+    </div>
+    <script>
+            $("#myCarousel").on("slide.bs.carousel", function(e) {
+            var $e = $(e.relatedTarget);
+            var idx = $e.index();
+            var itemsPerSlide = 3;
+            var totalItems = $(".carousel-item").length;
+          
+            if (idx >= totalItems - (itemsPerSlide - 1)) {
+              var it = itemsPerSlide - (totalItems - idx);
+              for (var i = 0; i < it; i++) {
+                // append slides to end
+                if (e.direction == "left") {
+                  $(".carousel-item")
+                    .eq(i)
+                    .appendTo(".carousel-inner");
+                } else {
+                  $(".carousel-item")
+                    .eq(0)
+                    .appendTo($(this).find(".carousel-inner"));
+                }
+              }
+            }
+          });
+          
+          </script>
+        <script src="js/thumbmain.js" type="text/javascript"></script>	
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
